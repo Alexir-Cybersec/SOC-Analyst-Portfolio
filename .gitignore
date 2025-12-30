@@ -1,0 +1,32 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets / env
+.env
+*.key
+*.pem
+*.pfx
+secrets/
+credentials/
+
+# Large artifacts / raw evidence (keep private)
+*.pcap
+*.pcapng
+*.evtx
+*.etl
+*.dmp
+*.memory
+*.raw
+*.img
+*.iso
+*.ova
+*.vmdk
+*.zip
+*.7z
+
+# Exported reports / scans you may not want public by default
+downloads/
+exports/
