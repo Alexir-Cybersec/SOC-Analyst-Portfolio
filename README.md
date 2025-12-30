@@ -19,7 +19,7 @@ alert → triage → evidence → pivots → verdict → actions → escalation 
 ## Highlights
 
 - Best THM write-up: `writeups/tryhackme/<file>.md`
-- Best GuideM write-up: `writeups/guidem-cdth/<file>.md`
+- Best GuideM write-up: `writeups/guidem/<file>.md`
 - Best LetsDefend write-up: `writeups/letsdefend/<file>.md`
 - Phishing playbook: `playbooks/phishing-triage.md`
 - Endpoint playbook: `playbooks/malware-endpoint-triage.md`
@@ -43,7 +43,7 @@ alert → triage → evidence → pivots → verdict → actions → escalation 
 
 ---
 
-## Timeline (milestones)
+## Timeline
 
 - Start date: **30 Dec 2025**
 - Target: complete THM Cyber Security 101 by **5 Jan 2026**
@@ -59,7 +59,7 @@ TBD (no official announcement yet for next schedule)
 
 ## Repository map
 
-### Write-ups (SOC ticket style)
+### Write-ups
 
 - THM: [writeups/tryhackme/](writeups/tryhackme/)
 - GuideM: [writeups/guidem/](writeups/guidem/)
@@ -73,7 +73,7 @@ TBD (no official announcement yet for next schedule)
 
 - [capstone/](capstone/)
 
-### Notes (polished)
+### Notes
 
 - Checklists: [notes/checklists/](notes/checklists/)
 - Concepts: [notes/concepts/](notes/concepts/)
