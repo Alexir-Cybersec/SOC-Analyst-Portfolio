@@ -40,12 +40,12 @@ alert → triage → evidence → pivots → verdict → actions → escalation 
 
 - **Start date:** 05 Jan 2026
 
-### TryHackMe (foundation → SOC)
+### TryHackMe
 
 - **Cyber Security 101:** Jan 2026 (fast-track)
 - **SOC Level 1:** target completion by **07 Feb 2026**
 
-### GuideM CD:TH (bootcamp)
+### GuideM CD:TH
 
 **Tentative dates (5 Saturdays/Sundays):**
 
@@ -85,7 +85,7 @@ alert → triage → evidence → pivots → verdict → actions → escalation 
 
 - [splunk-queries/query-bank.md](splunk-queries/query-bank.md)
 
-### Images (sanitized)
+### Images
 
 - [images/](images/)
 
