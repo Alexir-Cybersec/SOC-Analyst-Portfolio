@@ -1,9 +1,9 @@
 # SOC Analyst Portfolio — Alexir Cybersec
 
 Public portfolio documenting my transition into a **SOC Analyst** role.
-Focus: **SOC-style investigations**, **playbooks**, **query/snippet bank**, and one **capstone case study**.
+Focus: **SOC-style investigations (ticket write-ups)**, **playbooks**, **query/snippet bank**, and a **capstone case study**.
 
-**Goal:** demonstrate job-relevant SOC workflow:
+**SOC workflow shown here:**
 alert → triage → evidence → pivots → verdict → actions → escalation → detection improvement.
 
 ---
@@ -11,18 +11,17 @@ alert → triage → evidence → pivots → verdict → actions → escalation 
 ## ⭐ Start here
 
 - **Capstone:** [capstone/README.md](capstone/README.md)
-- **Query bank:** [splunk-queries/query-bank.md](splunk-queries/query-bank.md)
 - **Playbooks:** [playbooks/README.md](playbooks/README.md)
+- **Query bank:** [splunk-queries/query-bank.md](splunk-queries/query-bank.md)
 
 ---
 
 ## Highlights
 
-- Best THM write-up: `writeups/tryhackme/<file>.md`
-- Best GuideM write-up: `writeups/guidem/<file>.md`
-- Best LetsDefend write-up: `writeups/letsdefend/<file>.md`
+- Best write-up: `writeups/<platform>/<file>.md`
 - Phishing playbook: `playbooks/phishing-triage.md`
 - Endpoint playbook: `playbooks/malware-endpoint-triage.md`
+- Capstone: `capstone/<file>.md`
 
 ---
 
@@ -35,34 +34,43 @@ alert → triage → evidence → pivots → verdict → actions → escalation 
 
 ---
 
-## Resources used
+## Roadmap
 
-- **TryHackMe:** Cyber Security 101 → SOC Level 1
-- **GuideM:** CD:TH bootcamp
-- **LetsDefend:** SOC Analyst Learning Path
+### Start
 
----
+- **Start date:** 05 Jan 2026
 
-## Timeline
+### TryHackMe (foundation → SOC)
 
-- Start date: **30 Dec 2025**
-- Target: complete THM Cyber Security 101 by **5 Jan 2026**
-- Target: complete THM SOC Level 1 by **7 Feb 2026**
-- Target: begin LetsDefend SOC Analyst Path on **8 Feb 2026**
-- Portfolio checkpoint: **15 Feb 2026**
+- **Cyber Security 101:** Jan 2026 (fast-track)
+- **SOC Level 1:** target completion by **07 Feb 2026**
 
-### GuideM CD:TH bootcamp dates
+### GuideM CD:TH (bootcamp)
 
-TBD (no official announcement yet for next schedule)
+**Tentative dates (5 Saturdays/Sundays):**
+
+-
+-
+-
+-
+-
+
+### LetsDefend
+
+- **SOC Analyst Path:** starts **Feb 2026** and continues through **Mar 2026**
+
+### Portfolio-ready checkpoint
+
+- **15 Feb 2026:** capstone + 2 playbooks + write-ups/snippets targets reached
 
 ---
 
 ## Repository map
 
-### Write-ups
+### Write-ups (SOC ticket style)
 
 - THM: [writeups/tryhackme/](writeups/tryhackme/)
-- GuideM: [writeups/guidem/](writeups/guidem/)
+- GuideM: [writeups/guidem-cdth/](writeups/guidem-cdth/)
 - LetsDefend: [writeups/letsdefend/](writeups/letsdefend/)
 
 ### Playbooks
@@ -73,16 +81,11 @@ TBD (no official announcement yet for next schedule)
 
 - [capstone/](capstone/)
 
-### Notes
-
-- Checklists: [notes/checklists/](notes/checklists/)
-- Concepts: [notes/concepts/](notes/concepts/)
-
 ### Query bank
 
 - [splunk-queries/query-bank.md](splunk-queries/query-bank.md)
 
-### Images
+### Images (sanitized)
 
 - [images/](images/)
 
