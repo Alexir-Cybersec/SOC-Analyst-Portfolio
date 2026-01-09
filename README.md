@@ -1,102 +1,176 @@
 # SOC Analyst Portfolio — Alexir Cybersec
 
-Public portfolio documenting my transition into a **SOC Analyst** role.
-Focus: **SOC-style investigations (ticket write-ups)**, **playbooks**, **query/snippet bank**, and a **capstone case study**.
+A practical, **SOC-style** portfolio built from hands-on labs, investigations, and detection work as I transition into blue team security.
 
-**SOC workflow shown here:**
-alert → triage → evidence → pivots → verdict → actions → escalation → detection improvement.
+> **Repo focus:** evidence of skills (write-ups, playbooks, query packs, reporting), not just course completion.
 
 ---
 
-## ⭐ Start here
+## What you’ll find here
 
-- **Capstone:** [capstone/README.md](capstone/README.md)
-- **Playbooks:** [playbooks/README.md](playbooks/README.md)
-- **Query bank:** [splunk-queries/query-bank.md](splunk-queries/query-bank.md)
-
----
-
-## Highlights
-
-- Best write-up: `writeups/<platform>/<file>.md`
-- Phishing playbook: `playbooks/phishing-triage.md`
-- Endpoint playbook: `playbooks/malware-endpoint-triage.md`
-- Capstone: `capstone/<file>.md`
+- **Write-ups**: investigation narratives (phishing, web attacks, SIEM triage, endpoint leads)
+  → `writeups/`
+- **Playbooks**: repeatable workflows (triage, escalation, enrichment, reporting)
+  → `playbooks/`
+- **Detection / Query packs**: **SPL + KQL** snippet libraries + explanation notes
+  → `snippets/`
+- **Capstone-style reports**: longer, end-to-end investigations
+  → `capstone/`
+- **Images**: supporting visuals used by write-ups
+  → `images/`
 
 ---
 
-## Progress
+## Portfolio releases (versions)
 
-- Write-ups: \_\_ / 20
-- Playbooks: \_\_ / 2
-- Capstones: \_\_ / 1
-- Query snippets: \_\_ / 50
+I track this portfolio in **public releases** so we can quickly compare progress.
+
+- **v1.0 — Portfolio Ready (15 Feb 2026)**
+  Baseline SOC artifacts: initial investigations + first playbooks + early query packs.
+- **v2.0 — Extended Portfolio (29 Mar 2026)**
+  Expanded investigations + additional playbooks + stronger SIEM content + Microsoft SOC tooling artifacts.
+
+> Tip: check the **Releases** tab to view each portfolio snapshot (v1 vs v2).
 
 ---
 
-## Roadmap
+## Current learning journey
 
-### Start
+### Phase 1 — Foundations (Jan → early Feb 2026)
 
-- **Start date:** 05 Jan 2026
+- **TryHackMe: Cyber Security 101**
+- **TryHackMe: SOC Level 1** (completed by **7 Feb**)
 
-### TryHackMe
+### Phase 2 — SOC Reps + SIEM Skills (Feb → mid Mar 2026)
 
-- **Cyber Security 101:** Jan 2026 (fast-track)
-- **SOC Level 1:** target completion by **07 Feb 2026**
+- **LetsDefend: SOC Analyst Learning Path**
+- **LetsDefend: SIEM Engineer Path**
+  (planned to complete within the Feb → mid-March window)
 
-### GuideM CD:TH
+### Phase 3 — Microsoft SOC Tooling (from mid Mar 2026)
 
-**Tentative dates (5 Saturdays/Sundays):**
+- **SC-200 (Microsoft Learn)** — Microsoft Sentinel + Defender XDR focus
+  _This phase continues beyond v2._
 
--
--
--
--
--
+### Future Plan
 
-### LetsDefend
+This may vary, depends on trends and work opportunity.
 
-- **SOC Analyst Path:** starts **Feb 2026** and continues through **Mar 2026**
+- THM SOC Level 2 → TCM SOC 201 → CyberDefenders CCD → HTB CDSA → AZ-500
 
-### Portfolio-ready checkpoint
+---
 
-- **15 Feb 2026:** capstone + 2 playbooks + write-ups/snippets targets reached
+## Skills demonstrated in this repo
+
+### SOC investigation & triage
+
+- Alert triage logic
+- Evidence handling and documentation
+- Escalation notes and reporting quality
+
+### Threats & detection areas
+
+- Phishing analysis
+- Web attack investigation
+- Endpoint investigation concepts
+- Network / log analysis foundations
+
+### SIEM & query skills
+
+- **Splunk SPL** snippets
+- **KQL** snippets for Sentinel-style hunting and investigation
+- Detection thinking: mapping signals to decisions
+
+### Frameworks
+
+- MITRE ATT&CK mapping mindset
+- Kill chain thinking
 
 ---
 
 ## Repository map
 
-### Write-ups (SOC ticket style)
+### 1) Write-ups
 
-- THM: [writeups/tryhackme/](writeups/tryhackme/)
-- GuideM: [writeups/guidem-cdth/](writeups/guidem-cdth/)
-- LetsDefend: [writeups/letsdefend/](writeups/letsdefend/)
+Go to: `writeups/README.md`
+What you’ll see:
 
-### Playbooks
+- Case-style write-ups with a consistent structure
+- Sanitized evidence references (screenshots stored in `images/`)
 
-- [playbooks/](playbooks/)
+### 2) Playbooks
 
-### Capstone
+Go to: `playbooks/README.md`
+What you’ll see:
 
-- [capstone/](capstone/)
+- Repeatable SOC workflows (triage, enrichment, escalation, reporting)
+- Playbooks written so another analyst could follow them
 
-### Query bank
+### 3) Snippets
 
-- [splunk-queries/query-bank.md](splunk-queries/query-bank.md)
+Go to: `snippets/README.md`
+What you’ll see:
 
-### Images
+- SPL and KQL packs with plain-English explanations
+- “When to use this query” and “what to look for in results”
 
-- [images/](images/)
+### 4) Capstone
+
+Go to: `capstone/README.md`
+What you’ll see:
+
+- Longer investigations with a report-like structure
+- Clear scope, timeline, findings, and recommendations
+
+---
+
+## Portfolio metrics
+
+- Write-ups:
+- Playbooks:
+- Snippets:
+- Capstones:
+
+---
+
+## How I keep artifacts safe
+
+This repo is **sanitized**:
+
+- No employer data, internal tooling screenshots, real client info, or sensitive identifiers
+- No platform answer dumps or paid-content copying
+- IPs/usernames/hostnames are generalized where needed
+- Focus is on **reasoning + workflow**, not “spoilers”
+
+---
+
+## Contact / profiles
+
+- [GitHub | Alexir-Cybersec](https://github.com/alexir-cybersec)
+- [X | Alexir_Cybersec](https://x.com/Alexir_Cybersec)
+- [LinkedIn | aicbarrios](https://www.linkedin.com/in/aicbarrios)
+- [YouTube | Alexir_Cybersec](https://www.youtube.com/@Alexir_Cybersec)
+
+---
+
+## Acknowledgements
+
+This portfolio is built from structured learning + hands-on practice across:
+
+- TryHackMe (Cyber Security 101, SOC Level 1)
+- GuideM (Cyber Defense & Threat Hunting)
+- LetsDefend (SOC Analyst + SIEM Engineer tracks)
+- Microsoft Learn (SC-200 aligned learning paths)
 
 ---
 
 ## Disclaimer
 
-All content in this repository is based on **lab/simulated environments** (TryHackMe, LetsDefend, GuideM training).
-Any indicators, logs, hostnames, usernames, and screenshots are **sanitized** and shared for learning/portfolio purposes only.
-This is not professional security advice and must not be used for unauthorised activity.
+All content here is for **educational purposes** and created in controlled lab environments or simulated SOC platforms. Any resemblance to real systems is incidental. Techniques are documented to demonstrate defensive analysis and reporting capability.
 
-## Licence
+---
 
-Unless stated otherwise, this repository’s content is licensed under **CC BY-NC 4.0**. See [LICENSE](LICENSE).
+## License
+
+**CC BY-NC 4.0** — You may share/adapt with attribution for non-commercial use.
+Third-party trademarks/course names belong to their respective owners.
