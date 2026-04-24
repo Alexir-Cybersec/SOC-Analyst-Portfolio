@@ -49,7 +49,7 @@
         <package name="wireshark.vm" />
         <package name="x64dbg.vm" />
         <package name="yara.vm" />
-     </packages>
+    </packages>
     <apps>
         <!--
         INFO:
@@ -88,7 +88,7 @@
         <path-item name="DESCRIPTIVE_NAME" type="dir/file" path="DIR_PATH/FILE_PATH"/>
         -->
     </path-items>
-   <registry-items>
+    <registry-items>
         <registry-item name="Show full directory path in Explorer title bar"
             path="HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetState"
             value="FullPath" type="DWord" data="1" />
